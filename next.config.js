@@ -814,6 +814,102 @@ module.exports = {
           "133d47AMU6nQ7mZ1fF4dFJfoLhqCUnTSRhZAwmcahBoEtZPGF4U", // gate.io 
         ],
       },
+      {
+        id: "14rmHKjpZhsnrA2j24KiGzg8teA1zAMRhVGcWVUdmTAomTrJJQf",
+        deadline: 1840000,
+        link: "https://github.com/helium/HIP/blob/main/0080-simplifying-dao-utility-score.md",
+        name: "Simplifying the DAO Utility Score",
+        tags: {
+          primary: "HIP 80",
+          secondary: "Economic / Technical",
+        },
+        authors: [
+          {
+            nickname: "@ferebee",
+            link: "https://github.com/ferebee" 
+          },
+          {
+            nickname: "@jmfayal",
+            link: "https://github.com/jmfayal" 
+          },
+          {
+            nickname: "@rawrmaan",
+            link: "https://github.com/rawrmaan" 
+          },
+          {
+            nickname: "@gateholder",
+            link: "https://github.com/gateholder" 
+          },
+        ],
+        description:
+          "",
+          outcomes: [
+          {
+            value: "For HIP 80",
+            address: "13nJcKR3nFNYqrQyTfb3pjx7Eq1ThgcV22P94fviLVf5BypAYyc",
+          },
+          {
+            value: "Against HIP 80",
+            address: "14d8wxarhR2uXG4PzqW7tutUJ6gMKNkZir4HMvW23jLoETM7juT",
+          },
+        ],
+        filters: [
+          // these are known exchange wallets, more can be added before the vote closes.
+          "14YeKFGXE23yAdACj6hu5NWEcYzzKxptYbm5jHgzw9A1P1UQfMv", // binance.com
+          "13HPSdf8Ng8E2uKpLm8Ba3sQ6wdNimTcaKXYmMkHyTUUeUELPwJ", // binance.us
+          "148W6v8vaS4npmQQ2PtPQhSLBhNWg6oYjvxne3VdsEAQq8r2GeT", // binance.us (?)
+          "13TFnZyGDy95neRAxnP5Y9FLHqW7Mu28U9VgmZz2hgNhi7qG3qF", // binance.us (?)
+          "13PBfQf1kaZPD3zN8LyoY5QtEDSZKJYZS5N7S5hZYaEz2Kh8znT", // crypto.com
+          "148W6v8vaS4npmQQ2PtPQhSLBhNWg6oYjvxne3VdsEAQq8r2GeT", // crypto.com
+          "13d4ieU8x4n3v7XtkiLio1NmT9WzKJS4BFC7jDJNbGjB5xciQC8", // kucoin
+          "13Nj4KCnuBruSYvbxCgTLdeoyTN6Q5cZsNnJw3rh8WLZt9wBYih", // kucoin
+          "133d47AMU6nQ7mZ1fF4dFJfoLhqCUnTSRhZAwmcahBoEtZPGF4U", // gate.io 
+        ],
+      },
+      {
+        id: "147pXvGVcLKU76D7Hdi7iTTLvLw9qX8jXsCgNkKSHqo3rnfzkby",
+        deadline: 1840000,
+        link: "https://github.com/helium/HIP/blob/main/0081-minimum-onboarding-fee.md",
+        name: "Minimum Device Onboarding Fee",
+        tags: {
+          primary: "HIP 81",
+          secondary: "Economic / Technical",
+        },
+        authors: [
+          {
+            nickname: "@mawdegroot",
+            link: "https://github.com/mawdegroot" 
+          },
+          {
+            nickname: "@maxgold91",
+            link: "https://github.com/maxgold91" 
+          },
+        ],
+        description:
+          "",
+          outcomes: [
+          {
+            value: "For HIP 81",
+            address: "13JQNSJsGXf8iVZjkJdV4scxfjB4XgdMnkUwBMh36xPxYznkcX7",
+          },
+          {
+            value: "Against HIP 81",
+            address: "14akKMDWUmEvJoe2bojEkooBM6Sdfd1pWgpWXpCh94HxrrtGJGE",
+          },
+        ],
+        filters: [
+          // these are known exchange wallets, more can be added before the vote closes.
+          "14YeKFGXE23yAdACj6hu5NWEcYzzKxptYbm5jHgzw9A1P1UQfMv", // binance.com
+          "13HPSdf8Ng8E2uKpLm8Ba3sQ6wdNimTcaKXYmMkHyTUUeUELPwJ", // binance.us
+          "148W6v8vaS4npmQQ2PtPQhSLBhNWg6oYjvxne3VdsEAQq8r2GeT", // binance.us (?)
+          "13TFnZyGDy95neRAxnP5Y9FLHqW7Mu28U9VgmZz2hgNhi7qG3qF", // binance.us (?)
+          "13PBfQf1kaZPD3zN8LyoY5QtEDSZKJYZS5N7S5hZYaEz2Kh8znT", // crypto.com
+          "148W6v8vaS4npmQQ2PtPQhSLBhNWg6oYjvxne3VdsEAQq8r2GeT", // crypto.com
+          "13d4ieU8x4n3v7XtkiLio1NmT9WzKJS4BFC7jDJNbGjB5xciQC8", // kucoin
+          "13Nj4KCnuBruSYvbxCgTLdeoyTN6Q5cZsNnJw3rh8WLZt9wBYih", // kucoin
+          "133d47AMU6nQ7mZ1fF4dFJfoLhqCUnTSRhZAwmcahBoEtZPGF4U", // gate.io 
+        ],
+      },
     ],
   },
   webpack: (config, { isServer }) => {
